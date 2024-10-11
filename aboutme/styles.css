@@ -1,0 +1,299 @@
+#title {
+    background-color: #faf3eb;
+    z-index: 1;
+    position: relative;
+}
+body {
+    background-color: #faf3eb;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+h1 {
+    font-family: 'libre', serif;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 400;
+    color:rgb(0, 0, 0);
+    padding-top: 10%;
+}
+
+.main-header {
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 'libre', serif;
+    font-size: 1.5;
+    font-weight: 400;
+    color: #000000;
+}
+
+h3 {
+    font-family: 'noto sans', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-style: light;
+}
+
+p {
+    color:#000000;
+    font-size: 20px;
+    font-family: 'noto sans', sans-serif;
+    font-weight:300;
+    font-style: light;
+}
+
+/*navbar*/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'libre', serif;
+    font-size: 2.5rem;
+    font-style: light;
+    font-weight: medium;
+}
+
+.highlight-text /*SERINA LI in navbar*/ {
+    color: #b65577;
+}
+
+.nav-item {
+    padding: 0 18px;
+    
+}
+
+.nav-link {
+    font-family: 'noto sans', sans-serif;
+    font-size: 1.1rem;
+    color: #000000 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #b65577 !important;
+}
+
+.align-items-center {
+    padding-top: 3%;
+    padding-bottom: 6%;
+}
+
+/*title image*/
+.title-image {
+   
+    max-width: 90%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+}
+
+/*download button*/
+.download-button {
+    margin: 2% 3% 5% 0% ;
+    font-family: 'noto sans', sans-serif;
+    color: #b65577;
+    font-weight: 500;
+}
+
+.circular-button {
+    border-radius: 50%;
+}
+
+  /*arrow-down */
+#arrow-down {
+    z-index: 1;
+    position: relative;
+    background-color: #faf3eb;
+    text-align: center;
+}
+
+/*my blurbs!*/
+#thisisme {
+    padding: 0% 15%;
+}
+/* Container for blurbs */
+.blurbs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+    grid-gap: 40px; /* Space between blurbs */
+    max-width: 1000px;
+    margin: 40px auto; /* Center container */
+    padding-top: 5%;
+  }
+  
+  /* General blurb styles */
+  .blurb {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .blurb img {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    transition: filter 0.3s ease; /* Smooth transition for brightness */
+  }
+
+  /* When hovering over the blurb, show the text and darken the image */
+    .blurb:hover img {
+    filter: brightness(70%); /* Darken the image */
+  }
+  
+  .blurb p {
+    position: relative; /* Text stays in normal flow but above the image */
+    color: white; /* Adjust color for readability */
+    z-index: 2; /* Ensure the text is on top of the image */
+    font-size: 1.2rem;
+    text-align: center; /* Center the text */
+    font-family: 'noto sans' sans-serif;
+    font-weight: bold;
+    opacity: 0; /* Text is invisible initially */
+    visibility: hidden; /* Prevents interaction with the text */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition for appearance */
+  }
+  
+  /* When hovering over the blurb, show the text */
+.blurb:hover p {
+    opacity: 1; /* Fully visible on hover */
+    visibility: visible; /* Ensures the text can be interacted with */
+  }
+
+  /* Hover effect */
+  .blurb:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Unique styles for each blurb to make them asymmetrical */
+  
+  /* Blurb 1: Larger and round */
+  .blurb1 {
+    grid-column: span 2; /* Span two columns to make it larger */
+    height: 250px;
+    border-radius: 5px; /* More rounded */
+  }
+  
+  /* Blurb 2: Tall and thin */
+  .blurb2 {
+    grid-column: span 1;
+    height: 250px;
+    border-radius: 5px; /* Slightly rounded */
+  }
+  
+  /* Blurb 3: Small and wide */
+  .blurb3 {
+    grid-column: span 1; /* Full width blurb */
+    height: 250px;
+    border-radius: 5px;
+  }
+
+  /* Blurb 4: Small and wide */
+  .blurb4 {
+    grid-column: span 1; /* Full width blurb */
+    height: 250px;
+    border-radius: 5px;
+  }
+
+  /*Blurb 5: Small and wide*/
+  .blurb5 {
+    grid-column: span 1; 
+    height: 250px;
+    border-radius: 5px;
+  }
+
+/*footer*/
+#footer {
+    background-color: #faf3eb; /* Light grey background */
+    padding: 20px;
+    position: relative; /* Can be changed to fixed or absolute if needed */
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+
+  .info {
+    font-size: .9rem;
+  }
+
+  .copyright {
+    font-size: .7rem;
+    padding-top: 25px;
+  }
+
+  .fa-heart {
+    color: #b65577;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+  }
+  
+  .footer-links a:hover {
+    color:#79b19f
+  }
+
+/*testimonials section
+#fun-facts {
+    text-align: center;
+    color: rgb(254, 238, 217);
+    background-color:#faf3eb;
+    
+}
+
+h2.design {
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+#cat-carousel {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+.carousel-item {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+    width: 80%;
+    height: auto;
+    max-height: 500px;
+    margin: 0 auto;
+    border-radius: 1%;
+    align-items: center;
+} */

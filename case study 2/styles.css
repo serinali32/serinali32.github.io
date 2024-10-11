@@ -1,0 +1,361 @@
+/*navbar*/
+.navbar {
+    padding: 0 0 2rem;
+}
+.navbar-brand {
+    font-family: 'libre', serif;
+    font-size: 2.5rem;
+    font-style: light;
+    font-weight: medium;
+}
+
+.highlight-text /*SERINA LI in navbar*/ {
+    color: #b65577;
+}
+
+.nav-item {
+    padding: 0 18px;
+    
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(182, 85, 119, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+ }
+
+.nav-link {
+    font-family: 'noto sans', sans-serif;
+    font-size: 1.1rem;
+    color: #000000 !important;
+    transition: color 0.3s ease;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #b65577 !important;
+}
+
+#title {
+    background-color: #faf3eb;
+    z-index: 1;
+    position: relative;
+}
+
+.intro {
+  padding: 2% 10% 5% 10%;
+}
+
+.main-contents {
+  padding-top: 5%;
+}
+
+.main-header {
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+    font-family: noto sans, sans-serif;
+    font-weight: 350;
+    color: #b65577;
+}
+
+.main-description {
+  font-family: libre, serif;
+  font-size: 3rem;
+
+}
+
+/*title image*/
+.title-image {
+    max-width: 100%;
+    z-index: 2;
+    position: relative;
+    /*float: right;*/
+    align-items: left;
+}
+
+.roles {
+  padding-left: 10%;
+}
+
+.description-role {
+  font-size: 1rem;
+  color: #b65577;
+}
+
+.description-role-p {
+  font-size: 1rem;
+  color:#000000;
+}
+
+.my-divider {
+  border: .7px solid #000000;
+  width: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.section-opener {
+  font-size: 1.2rem;
+  font-family: noto sans, sans-serif;
+  font-weight: 400;
+  color:#b65577;
+  padding-bottom: 1%;
+  padding-left: 10%;
+}
+
+
+.survey {
+    padding: 0%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.problem-overview {
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.header-type {
+  font-family: libre, serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.info-section {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.info-arch {
+  width: 100%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+
+
+/*how it works*/
+.example {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.phone1 {
+  width: 56%;
+  align-items: center;
+}
+.phone {
+  width: 60%;
+  align-items: center;
+}
+
+.phone-desc {
+  align-items: center;
+}
+
+.p-desc1 {
+  padding-bottom: 15%;
+  align-items: center;
+}
+
+.p-desc2 {
+  padding-bottom: 10%;
+  align-items: center;
+}
+
+.p-desc3 {
+  padding-bottom: 15%;
+  align-items: center;
+}
+
+.emphasis {
+  font-weight: bold;
+}
+
+.comp {
+  border-radius: 10%;
+  max-width: 300px; /* Maximum width for the image */
+  width: 100%;      /* Adapt to smaller screens */
+  height: auto;     /* Maintain aspect ratio */
+
+}
+
+.centering {
+  justify-content: center;
+  display: flex;
+}
+
+.lofiog {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.lofiogg {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.official-arch {
+  width: 100%;
+}
+
+.images {
+  padding-top: 5%;
+}
+
+.hifi-section {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+}
+
+.main-hifi {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.social-hifi {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+/*li {
+  color:#000000;
+    font-size: 1rem;
+    font-family: 'noto sans', sans-serif;
+    font-weight:300;
+    font-style: light;
+    padding-bottom: 1%;
+}*/
+
+body {
+    background-color: #faf3eb;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+    padding-bottom: 0%;
+}
+
+h1 {
+    font-family: 'libre', serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: 'libre', serif;
+    font-size: 1.5;
+    font-weight: 400;
+    color: #000000;
+}
+
+h3 {
+    font-family: 'noto sans', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-style: light;
+}
+
+p {
+    color:#000000;
+    font-size: 1rem;
+    font-family: 'noto sans', sans-serif;
+    font-weight:300;
+    font-style: light;
+}
+
+.spaced-text {
+  line-height: 1.8; /* Adjust this value to your liking */
+}
+
+/* Card container flexbox */
+.d-flex {
+    display: flex;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+/* Basic card styling */
+.card {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ffffff; /* Light border */
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Add a hover effect */
+.card:hover {
+    transform: translateY(-5px); /* Slight lift */
+}
+
+/* Styling for text within the card */
+.spaced-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+}
+
+.closer {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.closing-state {
+  padding-top: 3%;
+}
+
+/*footer*/
+#footer {
+    background-color: #faf3eb; 
+    padding: 20px;
+    position: relative; /* Can be changed to fixed or absolute if needed */
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+
+  .info {
+    font-size: .9rem;
+  }
+
+  .copyright {
+    font-size: .7rem;
+    padding-top: 25px;
+  }
+
+  .fa-heart {
+    color: #b65577;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+  }
+  
+  .footer-links a:hover {
+    color:#79b19f
+  }
